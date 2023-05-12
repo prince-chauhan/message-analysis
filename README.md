@@ -1,28 +1,27 @@
-# hello-express
+# Sentiment Analysis
 
-A server that serves a webpage, its resources, and some data
+This is a simple sentiment analysis application that uses TensorFlow.js to classify text input as positive, negative, or neutral. The application consists of a simple HTML front-end for user input and result display, and a Node.js backend with an Express.js API for communicating with the TensorFlow.js model. The application also provides a confidence score for each sentiment prediction.
 
-## Your Project
+## Set up and run the application
+
+- Clone this repository.
+- Install Node.js and NPM on your machine.
+- Navigate to the project root directory in the terminal.
+- Install the necessary Node.js packages by running `npm install`.
+- Start the backend server by running `npm start`.
+- Open `localhost:3000` in a web browser.
+- The application should now be running and ready to accept user input.
 
 On the front-end,
 
-- Edit `views/index.html` to change the content of the webpage
-- `public/client.js` is the javacript that runs when you load the webpage
-- `public/style.css` is the styles for `views/index.html`
-- Drag in `assets`, like images or music, to add them to your project
+- Edit `index.html` to change the content of the webpage
+- `main.js` is the javacript that runs when you load the webpage
+- Style tags are internally loaded in `index.html`
 
 On the back-end,
 
 - your app starts at `server.js`
 - add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
-
-## Made by [Glitch](https://glitch.com/)
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
 
 ( ᵔ ᴥ ᵔ )
